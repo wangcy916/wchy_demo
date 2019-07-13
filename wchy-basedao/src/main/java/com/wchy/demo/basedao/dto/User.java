@@ -1,4 +1,4 @@
-package com.wchy.demo.dto;
+package com.wchy.demo.basedao.dto;
 
 public class User {
 

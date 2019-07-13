@@ -13,6 +13,7 @@
 
     <modules>
         <module>wchy-basedao</module>
+        <module>wchy-srv</module>
     </modules>
 
     <properties>
