@@ -1,4 +1,4 @@
-package com.wchy.demo.srv.interfaces;
+package com.wchy.demo.srv.service;
 
 public interface AccountService {
 }
