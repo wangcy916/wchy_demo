@@ -2,25 +2,35 @@ package com.wchy.demo.basedao.dto;
 
 public class Account {
 
-    private String id;
+    private String idType;
+    private String idNo;
     private String userName;
     private String mobile;
 
     public Account() {
     }
 
-    public Account(String id, String userName, String mobile) {
-        this.id = id;
+    public Account(String idType, String idNo, String userName, String mobile) {
+        this.idType = idType;
+        this.idNo = idNo;
         this.userName = userName;
         this.mobile = mobile;
     }
 
-    public String getId() {
-        return id;
+    public String getIdType() {
+        return idType;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setIdType(String idType) {
+        this.idType = idType;
+    }
+
+    public String getIdNo() {
+        return idNo;
+    }
+
+    public void setIdNo(String idNo) {
+        this.idNo = idNo;
     }
 
     public String getUserName() {

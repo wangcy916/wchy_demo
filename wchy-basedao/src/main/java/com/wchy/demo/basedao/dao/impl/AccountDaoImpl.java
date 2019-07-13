@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 public class AccountDaoImpl implements AccountDao {
 
     public Account getAccount() {
-        return null;
+        return new Account("1", "32140019900315214X", "wchy", "15601753033");
     }
 
 }
