@@ -1,6 +1,10 @@
 package com.wchy.demo.basedao.dto;
 
-public class Account {
+import java.io.Serializable;
+
+public class Account implements Serializable {
+
+    private static final long serialVersionUID = -5542722246696087945L;
 
     private String idType;
     private String idNo;
