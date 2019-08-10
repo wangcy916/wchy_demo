@@ -20,6 +20,11 @@ public class AccountServiceImplTest extends BaseTest {
 
     @Test
     public void getAccount() {
+
+        /*AccountService accountService = () -> {
+            return new Account("a", "b", "c", "d");
+        };*/
+
         Account account = accountService.getAccount();
 
         System.out.println("===========" + gson.toJson(account));

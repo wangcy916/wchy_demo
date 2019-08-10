@@ -52,4 +52,14 @@ public class Account implements Serializable {
     public void setMobile(String mobile) {
         this.mobile = mobile;
     }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "idType='" + idType + '\'' +
+                ", idNo='" + idNo + '\'' +
+                ", userName='" + userName + '\'' +
+                ", mobile='" + mobile + '\'' +
+                '}';
+    }
 }
